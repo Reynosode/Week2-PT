@@ -1,0 +1,80 @@
+/* Notice that the text before { has no additional values. Thats because it is editing the element itself and therefore every element with a <body> tag will have a background color of grey */
+body {
+    background-color: grey
+}
+
+table {
+    color: white;
+    border: 1px solid black;
+    border-width: 3px;
+}
+
+/* The "." before "text" classifies it as a class edit, so any place where I have inserted a class="..." in a tag will style it with the following options. */
+.text {
+    color: white;
+    border: 1px solid black;
+    border-width: 3px;
+    width: 66%;
+    border-radius: 10%;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.title {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.links {
+    color: white;
+    font: 1.0rem "Fira Sans", sans-serif;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border: 2px yellow;
+}
+
+.imgChoice {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+}
+
+.list {
+    font: 1.0rem "Fira Sans", sans-serif;
+}
+
+.hov:hover {
+    background-color: gold;
+    font: "Fira Sans", sans-serif;
+
+} 
+
+/* Below is a Psuedo Class. The line below selects every even child of the defining element and applies style of it.*/
+.Elist li:nth-child(even) {
+    background-color: darkslategray;
+    font: 1.0rem "Fira Sans", sans-serif;
+    color: white;
+}
+
+/* The # below identifies as a id selector and is used on one element on a page. Making it unique*/
+#Secret {
+    color:darkgray;
+    font: 1.0rem "Fira Sans", sans-serif;
+} 
+
+#home {
+    Color: gold;
+    font: 2.0rem "Fira Sans", sans-serif;
+}
+
+#BigPenguins {
+    color: goldenrod;
+    font: 2.0rem "Fira Sans", sans-serif;
+}
+
+#SmallPenguins {
+    color: darkgoldenrod;
+    font: 2.0rem "Fira Sans", sans-serif;
+}
